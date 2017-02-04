@@ -1,0 +1,7 @@
+.blog-post-container {
+  @include container-outer;
+}
+
+.blog-post {
+  @include container-inner;
+}

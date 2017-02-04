@@ -11,3 +11,22 @@
 @import "header";
 @import "blog-index";
 @import "blog-post";
+
+.content {
+  img {
+    width: 50%;
+    margin: 0.5em;
+    border: 15px solid #3e2b14;
+    border-radius: 1em;
+    max-height: 100%;
+    width: 95%;
+  }
+
+  p {
+    color: $yellow;
+    font-size: 16pt;
+    font-family: 'Galindo', cursive;
+  } 
+  
+}
+

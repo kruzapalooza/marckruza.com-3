@@ -11,6 +11,10 @@ module SiteHelpers
     partial "partials/#{str}.html.slim"
   end
 
+  def _haml(str)
+    partial "partials/#{str}.html.haml"
+  end
+
   def _snippet(str)
     partial "snippets/#{str}.markdown"
   end

@@ -1,0 +1,56 @@
+header {
+  @include container-outer;
+
+  .inner {
+    @include container-inner;
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  h1 {
+    color: $yellow;
+    font-family: Orbitron;
+    text-align: center;
+  }
+
+  .name-big {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  ul, li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-bar {
+    list-style-type: none;
+  }
+
+  .menu-item {
+    border: 1em;
+    color: $white;
+  }
+
+  .social-media-bar {
+    float: right;
+    list-style-type: none;
+  }
+
+  .social-media-widget {
+    width: 1.5em;
+    margin-left:  0.25em;
+    margin-right: 0.25em;
+    height: auto;
+    border-radius: 0.3em;
+    /*clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);*/
+  }
+
+}
+
+

@@ -1,0 +1,11 @@
+.blog-index-container {
+  @include container-outer;
+}
+
+.blog-index {
+  @include container-inner;
+
+  a {
+    display: block;
+  }
+}

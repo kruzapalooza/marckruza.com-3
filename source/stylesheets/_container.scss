@@ -1,0 +1,26 @@
+@mixin container-outer {
+  width: 100%;
+}
+
+@mixin container-inner {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+@mixin container-narrow {
+  max-width: em(736);
+
+  @include container-inner;
+  @include min-screen(em(736 + 16 + 16)) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@mixin narrow-container {
+  @include container-narrow;
+}
+
+@mixin push-bottom {
+  margin-bottom: 4em;
+}
