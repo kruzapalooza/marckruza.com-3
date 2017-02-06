@@ -2,6 +2,6 @@
 = wrap_layout :layout do
   .blog-index-container
     .blog-index
-      h2 Blog Posts
+      %h2 Blog Posts
       - blog.articles.each do |b|
-        a href=b.url Foo
+        %a{ href: "#{b.url} Foo" }

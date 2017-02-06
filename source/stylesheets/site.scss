@@ -27,6 +27,20 @@
     font-size: 16pt;
     font-family: 'Galindo', cursive;
   } 
-  
+
+  .buy-link {
+    font-size: 14pt;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    clip-path: polygon(5% 50%, 10% 5%, 90% 5%, 95% 50%, 90% 95%, 10% 95%);
+    font-family: 'Audiowide', cursive;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    -webkit-transition:color .2s ease-out, background .2s ease-in;
+      &:hover { color: yellow; }
+  }
+
 }
 
