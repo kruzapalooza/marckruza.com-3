@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+
+    <%= _partial "meta" %>
+
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Orbitron|Audiowide|Boogaloo" %>
+    <%= stylesheet_link_tag "site" %>
+
+    <%= javascript_include_tag  "modernizr" %>
+
+  </head>
+
+  <body class="<%= page_classes %>">
+
+    <%= _haml "header" %>
+
+    <%= yield %>
+
+    <%= _slim "footer" %>
+
+    <%= javascript_include_tag  "site" %>
+
+  </body>
+</html>
