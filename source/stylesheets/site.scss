@@ -14,22 +14,20 @@
 
 .content {
   img {
-    width: 50%;
     margin: 0.5em;
     border: 15px solid #3e2b14;
     border-radius: 1em;
     max-height: 100%;
-    max-width: 20em;
-    width: 95%;
+    max-width: 30em;
   }
 
   p {
     margin: 1em;
-    color: $white;
-    font-size: 12pt;
+    color: $yellow;
+    font-size: 16pt;
     font-family: 'Galindo', cursive;
   } 
-
+  
   .buy-link {
     font-size: 14pt;
     background-color: #000000;
@@ -42,7 +40,6 @@
     padding-right: 10%;
     -webkit-transition:color .2s ease-out, background .2s ease-in;
       &:hover { color: yellow; }
-  }
+    }
 
 }
-
