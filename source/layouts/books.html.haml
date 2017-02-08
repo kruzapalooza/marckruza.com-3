@@ -1,7 +1,23 @@
-/ layout for a single blog post
-= wrap_layout :layout do
-  .blog-post-container
-    .blog-post
-      %h2 
-        = current_page.title
+/ layout for  books page
+/ = wrap_layout :layout do
+/   .books-post-container
+/     .books
+/       %h2 
+/         = current_page.title
+/       = yield
+
+!!!
+%html.no-js
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    = _partial "meta"
+    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Orbitron|Audiowide|Boogaloo|Galindo"
+    = stylesheet_link_tag "books"
+    = javascript_include_tag  "modernizr"
+    = stylesheet_link_tag "books"
+  %body{:class => page_classes}
+    = _haml "header"
+    .content
       = yield
+    = _slim "footer"
+    = javascript_include_tag  "books"

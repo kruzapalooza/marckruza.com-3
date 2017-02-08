@@ -1,5 +1,6 @@
 ---
-
+layout: books
+title: books
 ---
 
 What's more dangerous: asteroids and space aliens, or swirlies and high school punks? Join Matt, an up-and-coming graphic artist, as he navigates his own coming-of-age freshman year universe while relating in his sketchbook just how much high school feels like a dystopian space prison in which there are no rules, no order, and no friends.
