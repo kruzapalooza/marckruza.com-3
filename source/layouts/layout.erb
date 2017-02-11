@@ -1,28 +1,22 @@
 <!doctype html>
 <html class="no-js">
   <head>
-
     <%= _partial "meta" %>
-
     <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Orbitron|Audiowide|Boogaloo" %>
     <%= stylesheet_link_tag "site" %>
-
     <%= javascript_include_tag  "modernizr" %>
-
     <link rel="icon" href="images/msk_logo.jpg">
-
+  
   </head>
 
   <body class="<%= page_classes %>">
-
     <%= _haml "header" %>
-
+    
     <div class="content">
       <%= yield %>
     </div>
 
     <%= _slim "footer" %>
-
     <%= javascript_include_tag  "site" %>
 
   </body>

@@ -7,8 +7,8 @@ header {
 
   a {
     display: inline-block;
+    text-decoration: none;
     margin-right: 0.5em;
-
   }
 
   h1 {
@@ -18,39 +18,31 @@ header {
   }
 
   .name-big {
+    display: inline-block;
     margin: 0 auto;
     padding: 0;
     color: $blue;
   }
 
-  ul, li {
-    display: inline-block;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
   .menu-bar {
     background-color: $gray;
     border-radius: 0.25em;
-    padding: 0.25em;
+    padding: 0.4em;
     a {
       width: auto;
       font-family: Tahoma, Geneva, sans-serif;
       font-weight: bold;
       color: $blue;
-    }
+      img {
+        width: 1.5em;
+        border-radius: 0.6em;
+      }
 
+    }
   }
 
-  .social-media-bar {
+  .right-pull {
     float: right;
-    list-style-type: none;
-    a {
-      width: 1.5em;
-      height: auto;
-      border-radius: 0.6em;
-    }
   }
 
   .pic-circle {
