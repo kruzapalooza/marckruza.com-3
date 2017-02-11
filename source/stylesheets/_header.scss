@@ -13,13 +13,14 @@ header {
 
   h1 {
     color: $yellow;
-    font-family: Orbitron;
+    font-family: "Orbitron";
     text-align: center;
   }
 
   .name-big {
     margin: 0 auto;
     padding: 0;
+    color: $blue;
   }
 
   ul, li {
@@ -30,26 +31,34 @@ header {
   }
 
   .menu-bar {
-    list-style-type: none;
-  }
+    background-color: $gray;
+    border-radius: 0.25em;
+    padding: 0.25em;
+    a {
+      width: auto;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-weight: bold;
+      color: $blue;
+    }
 
-  .menu-item {
-    border: 1em;
-    margin: 0;
-    color: $white;
   }
 
   .social-media-bar {
     float: right;
     list-style-type: none;
+    a {
+      width: 1.5em;
+      height: auto;
+      border-radius: 0.6em;
+    }
   }
 
-  .social-media-widget {
-    width: 1.5em;
+  .pic-circle {
+    width: 4em;
+    border-radius: 2em;
     margin-left:  0.25em;
     margin-right: 0.25em;
     height: auto;
-    border-radius: 0.3em;
   }
 
 }
