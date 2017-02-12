@@ -13,48 +13,78 @@ header {
 
   .name-bar {
     h1 {
-      max-width: 70%;
+      max-width: 100%;
       display: inline-block;
       color: $blue;
       font-family: Orbitron;
-      padding-left: 0.5em;
-      text-align: center;
       text-shadow: 1px 2px $gray;
     }
-    img {
-      width: 4em;
-      border-radius: 2em;
-      margin-left:  0.25em;
-      margin-right: 0.25em;
-      height: auto;
+    div {
+      display: inline-block;
+      height: 6em;
+      width: 6em;
+      img {
+        margin-left: 1em;
+        width: 4em;
+        height: 4em;
+        border-radius: 2em;
+        height: auto;
+      } 
+      a {
+        padding-top: 0.5em;
+        font-family: Lucida;
+        font-size: 10pt;
+        font-weight: bold;
+        color: $gray;
+      }   
     }
   }
 
   .menu-bar {
     background-color: $gray;
     border-radius: 0.25em;
-    padding: 1em;
-    a {
-      width: auto;
-      font-family: Tahoma, Geneva, sans-serif;
-      font-weight: bold;
-      color: $yellow;
-      img {
-        margin-top: -1em;
-        width: 1.5em;
-        border-radius: 0.4em;
+    min-height: 3em;
+    ul {
+      padding-left: -1em;
+      list-style-type: none;
+      display: inline-block;
+      li {
+        display: inline-block;
+        a {
+          font-family: Tahoma, Geneva, sans-serif;
+          font-size: 12pt;
+          font-weight: bold;
+          color: $yellow;
+          img {
+            margin-top: 0.25em;
+            width: 1.5em;
+            border-radius: 0.4em;
+          }
+        } 
       }
     }
+
   }
 
-  .position-absolute {
-    position: absolute;
+  @media (min-width: 550px) {
+    .right-pull {
+      float: right;
+      margin-top: 0.5em;
+    }
+  }
+  @media (max-width: 549px) {
+    .wide-and-centered {
+      width: 100%;
+      display: block;
+      text-align: center; 
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
   }
 
-  .right-pull {
-    float: right;
-    margin-top: 0.5em;
-  }
 
 }
 
