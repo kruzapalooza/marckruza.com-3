@@ -5,11 +5,11 @@ header {
     @include container-inner;
   }
 
-  a {
+/*  a {
     display: inline-block;
     text-decoration: none;
     margin-right: 0.5em;
-  }
+  }*/
 
   .name-bar {
     h1 {
@@ -45,7 +45,8 @@ header {
     border-radius: 0.25em;
     min-height: 3em;
     ul {
-      padding-left: -1em;
+      padding-left:  1.5em;
+      padding-right: 1.5em;
       list-style-type: none;
       display: inline-block;
       li {
@@ -55,10 +56,18 @@ header {
           font-size: 12pt;
           font-weight: bold;
           color: $yellow;
+          text-decoration: none;
+          margin-right: 0.5em;
+          &:hover {
+            color: $blue;
+            transition-duration: 0.2s;
+            border-radius: 0.2em;
+          }
+
           img {
             margin-top: 0.25em;
             width: 1.5em;
-            border-radius: 0.4em;
+            border-radius: 0.5em;
           }
         } 
       }
