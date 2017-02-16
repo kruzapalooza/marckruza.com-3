@@ -5,12 +5,6 @@ header {
     @include container-inner;
   }
 
-/*  a {
-    display: inline-block;
-    text-decoration: none;
-    margin-right: 0.5em;
-  }*/
-
   .name-bar {
     h1 {
       max-width: 100%;
@@ -81,6 +75,7 @@ header {
       margin-top: 0.5em;
     }
   }
+  
   @media (max-width: 549px) {
     .wide-and-centered {
       width: 100%;
@@ -91,7 +86,6 @@ header {
         margin: 0 auto;
       }
     }
-
   }
 
 
