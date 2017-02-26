@@ -2,11 +2,11 @@
 layout: blog-index
 ---
 
-Test text
+<!-- Test text
 
 [Soar Cessna](#){: .buy-link}
 
-[Backpacking in Paradise](#){: .buy-link }
+[Backpacking in Paradise](#){: .buy-link } -->
 
 
 
