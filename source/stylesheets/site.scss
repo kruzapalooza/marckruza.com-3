@@ -25,29 +25,48 @@
   }
 
   h1 {
+    font-family: Orbitron;
     color: $blue;
     padding: 0.5em;
     margin: 0 auto;
+    text-shadow: 0px 1px $gray;
   }
 
   h2 {
+    font-family: Audiowide;
     color: $blue;
     padding: 0.5em;
     margin: 0 auto;
+    text-shadow: 0px 1px $gray;
+  }
+
+  h3 {
+    font-family: Audiowide;
+    color: $blue;
+    padding: 0.5em;
+    margin: 0 auto;
+    text-shadow: 0px 1px $gray;
   }
 
   p {
     line-height: 1.5em;
     padding: 0.5em;
     margin: 0 auto;
+    @media (min-width: 550px) {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
     color: $black;
     font-size: 11pt;
-    font-family: Lucida ;
+    font-family: Geneva;
     font-weight: bold;
     max-width: 90%;
     text-align: justify;
-  } 
-  
+
+  }
+
+
+
   .buy-link-container {
     width: 100%;
 
@@ -64,7 +83,6 @@
     color: $light-gray;
     max-width: 40%;
     text-align: center;
-    /*clip-path: polygon(5% 50%, 10% 5%, 90% 5%, 95% 50%, 90% 95%, 10% 95%);*/
     font-family: Geneva;
     padding-left: 10%;
     padding-right: 10%;
@@ -73,6 +91,7 @@
     }
 
     a {
+      font-family: Boogaloo;
       display: block;
       color: $black;
       text-decoration: none;

@@ -3,7 +3,7 @@ title: Soar Cessna
 category: Travel Blog
 ---
 
-# Soar Cessna
+## Soar Cessna
 
 On the eve of Christmas Eve, with 200 miles left to drive, and no mechanics available, my car broke down just outside Jacksonville, FL. This annual road trip started where I lived in Charleston, SC, included a halfway-stopping point at my best friend Ryan's house in Jacksonville, FL, and ended at my parent's house in Clearwater, FL. The phrase "Go Greyhound" crossed my mind, but Ryan had a better idea: "Soar Cessna." Ryan had earned his pilot's license, and offered to fly me to Clearwater in a Cessna 172. Pep Boys could take their sweet time fixing my car. I was flying home instead, without rip-off plane fares or TSA pat-downs. This, I thought, was the best car breakdown ever.
 The next morning, at the Craig Field hanger, a Cessna 172 waited for us. “Jacksonville Executive” signs were numerous, but Ryan cautioned me not to call it that. Calling the small airport “Jacksonville Executive” instead of “Craig Field” is like calling the town in “It's a Wonderful Life” “Pottersville” instead of “Bedford Falls.” I stuffed my backpack, suitcase and tattered bag of Christmas gifts in the back. Ryan showed me how to properly inspect the plane. He started the engine, and we taxied to the engine check spot on the runway. Even with all these extra steps, it still involved less hassle and embarrassment than flying commercial. I got to keep my shoes on my feet, my laptop in my backpack, and carry soap containers larger than eye drop bottles. 

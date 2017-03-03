@@ -3,18 +3,18 @@ title: Backpacking in Paradise
 category: Travel Blog
 ---
 
-# Backpacking in Paradise
+## Backpacking in Paradise
 
 Drinking four glasses of wine before packing, sleeping three hours, then driving four hours to the airport at night was not the best way to start my first Hawaii trip. But since this was technically my birthday vacation, I quickly forgave myself. After a nap on the Charlotte airport floor and two very long flights, I landed in the Garden Isle, Kauai. I could have stopped over in Oahu, the Traffic Jam Isle, to visit another friend, but decided I wanted to spend six solid days in one place. So I picked Kauai, where two friends from college, Chet and Somer, then lived. The evening I arrived, we relaxed, ate some local fare, and flew a kite on the island's windy East shore.
 
 ![Me](ocean_and_kruza.jpg "Me")
 ![Rainbow](rainbow.jpg "Hawaiian Rainbow")
 
-## Sunday
+### Sunday
 
 On Sunday, 2012-02-19, I body-surfed with Chet and Somer on the North Shore and jogged up and down the beach. Later, Chet and I packed our backpacks for our economy but epic trip on the Kalalau Trail to the Napali Coast. He constantly reminded me: pack tight and pack light. Our list included sunblock, cups, hats, a small pot, tents, poles and stakes, a tiny stove, water bottles, iodine tablets, and ultra-thin sleeping bags. We packed oats, musley, milk and chocolate for breakfast; tuna, tortillas, and avocadoes for lunch; and pasta, quinoa, rice and miso soup for dinner.
 
-## Monday
+### Monday
 
 On Monday, Somer dropped me and Chet off at Ke'e Beach, 9am, at the Kalalau Trail head. The densely-wooded, steep, wooden-stepped trail stared down at me, seeming to say "My Sierra Club 8/10 rating will kick your ass. Enter if you dare." Undeterred, I followed Chet, into the 11-mile charted wilderness. The wide but steep trail looked too much like paradise to be threatening. A steep slope of tropical shrubbery ascended to my left and descended to my right, with a 5-foot wide trail in front of me. A blue sky and bright sun peaked through tall trees above me, and I realized I couldn't have picked a better week or place to vacation.
 At the mouth of the Hankapiai River, we took off our shoes to cross, since no dry crossing existed. To the left, the Hanakapiai River and Trail ascended the mountain to a different destination campground that Chet and I planned. To the right, the ocean lapped against the river bed rocks. Were were two miles into the hike. After we crossed, Chet told me the bad news first: the trail would have no more wooden steps and would be much more narrow after this. The good news: the wimpy day hikers wouldn't continue this far on the trail, so the crowd would thin out. Light rain came off and on, making for a muddy trail. Dense tropical shrubbery covered both sides of the trail, so if I slipped and fell off, there would be shrubbery to cling to for dear life. Shortness of breath started to catch up with me, and Chet reminded me to go at my own pace and not hurry trying to follow him. But I tried to keep up anyway. Luckily, this strategy proved not dangerous/assets. but it did prove embarrassing. After another three miles of hurrying through muddy, steep trails, Chet surprising came up behind me.
@@ -44,7 +44,7 @@ We showered at the West End of Camp where a long tube of water less than a foot 
 
 With the small gas stove I bought for the trip, and Chet's wilderness cooking skills, we had a dinner of pasta, miso soup and tea, with a seaweed-salt seasoning I had never tasted, but fell for instantly.
 
-## Tuesday
+### Tuesday
 
 I awoke, needing to take a crap, like most mornings, but unlike most mornings, had to do it in a composting outhouse with no plumbing. After that crappy experience, I went straight back to sleep. After breakfast of muesli, oatmeal and coffee, I slept some more. My tired, aching body insisted. Finally, Chet roused me out of the hammock for a hike into Kalalau Valley. He told me flip-flops were fine. I knew this would pose a problem if we had to climb rocks, but my blistered feet really needed the break from boots.
 
@@ -61,7 +61,7 @@ Although mangoes abounded, my favorite but less abundant fruit were the guavas. 
 
 After dinner, we fumbled through the dark path to the beach with headlamps, and without the curse of urban light pollution, could barely find the usual constellations with all the extra visible stars. I half-prayed and half-mused silently... God, the Universe, whatever you are... I'd love to shut the noises off in my head and listen to you just like this every day.
 
-## Wednesday
+### Wednesday
 
 After another 12 hours of sleep, Chet body-surfed while I wrote in my journal and caught up with some reading lying in the hammock in a warm but mosquito-free campground. My zen mantra for the day: This life is pretty damn good. Remember that the next time I'm jealous of somebody else's. We hiked back East to the entrance of Kalalau Valley, picked yet more mangoes, but sick of mangoes, traded a few with a camper for his grapefruit. I encountered my first traveler's stone circle. The first traveler starts it in the center, then other travelers gradually expand it out concentrically, adding more stones. According to legend, they bring good luck.
 
@@ -70,7 +70,7 @@ After another 12 hours of sleep, Chet body-surfed while I wrote in my journal an
 
 We body-surfed, then walked to the cave at the West End of Napali Beach near the waterfall-shower, where the beach strip ended. A steep cliff ascended to the sky, and I stood there to watch. But Chet pulled me away after less than a minute, warning me falling pebbles might crack our skulls. I didn't want to know what larger rocks would do, so I didn't ask.
 
-## Thursday
+### Thursday
 
 We hiked back the 11 mile trail. A bamboo stick I found as a makeshift hiking pole slightly relieved my aching knees after 3 straight days of hiking. I took the most pictures of all four days, mostly as an excuse to rest. But whatever the reason for frequent stops, it was worth it to stop and smell paradise.
 The culture shock of no cell phone service at Ke'e Beach and hitchhiking as the norm hit me. Chet reminded me to smile when holding out my thumb as I tried not to think of bad slasher movies. A laid-back couple, Jeff and Joy, picked us up, and Chet paid him for the ride with one organic cigarette. They dropped us off halfway in Hanalei, where the late surf champion Andy Irons once lived. We bought sandwiches and Longboard Kona local beer at the store, ate on the perfect golf-green grass and enjoyed the chill town scenery. We missed the bus, but didn't care. Jeff and Joy offered to drive us the rest of the way to Anahola, and we took them up on it.
