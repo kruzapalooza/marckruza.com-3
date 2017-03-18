@@ -52,20 +52,23 @@
     line-height: 1.5em;
     padding: 0.5em;
     margin: 0 auto;
-    @media (min-width: 550px) {
-      margin-left: 20%;
-      margin-right: 20%;
+    
+    @media (max-width: 549px) {
+      margin-left: 1%;
+      margin-right: 1%;
     }
+
+    @media (min-width: 550px) {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
     color: $black;
     font-size: 11pt;
     font-family: Geneva;
     font-weight: bold;
-    max-width: 90%;
     text-align: justify;
-
   }
-
-
 
   .buy-link-container {
     width: 100%;
@@ -91,22 +94,16 @@
     }
 
     a {
-      font-family: Boogaloo;
+      font-family: Tahoma;
       display: block;
       color: $black;
       text-decoration: none;
       width: 100%;
-      line-height: 1.25em;
+      line-height: 1.5em;
       -webkit-transition:color .2s ease-out, background .2s ease-in;
         &:hover { color: $blue; }
     }
 
-    @media (min-width: 550px) {
-      .right-pull {
-        float: right;
-      }
-    }
-    
     @media (max-width: 549px) {
       .wide-and-centered {
         width: 100%;
@@ -118,5 +115,20 @@
         }
       }
     }
+
+    @media (min-width: 550px) {
+      .narrow {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+    }
+
+    @media (min-width: 550px) {
+      .right-pull {
+        float: right;
+      }
+    }
+    
+    
 
 }
