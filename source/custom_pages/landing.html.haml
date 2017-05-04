@@ -1,0 +1,27 @@
+
+%link{ href: "/stylesheets/landing.scss", rel: "stylesheets", type: "text/css"}
+
+%div.first-container.outline.red
+  %svg{ height: "500", width: "500"}
+    %polygon{ points: "200 400   27 300   27 100   200 0   373 100   373 300", style: "stroke:purple;stroke-width:1" }
+    %animatetransform{ attributename: "transform", begin: "0s", dur: "0.5s", from: "0.9 0.9", repeatcount: "0", to: "1 1", type: "scale"}
+    %animatetransform{ :attributename => "transform", :begin => "0s", :dur => "0.5s", :from => "50 50", :to => "0 0", :type => "translate"}
+    %animate{attributename: "opacity", begin: "0s", dur: "0.5s", from: "0", to: "1"}
+  
+  %svg{height: "500", width: "500"}
+    %polygon{points: "250 400   77 300   77 100   250 0   423 100   423 300", style: "stroke:purple;stroke-width:1"}
+    %animatetransform{attributename: "transform", begin: "0.5s", dur: "0.5s", from: "0.9 0.9", repeatcount: "0", to: "1 1", type: "scale"}
+    %animatetransform{ :attributename => "transform", :begin => "0.5s", :dur => "0.5s", :from => "20 20", :to => "0 0", :type => "translate"}
+    %animate{attributename: "opacity", begin: "0s", dur: "0.5", from: "0", to: "0"}
+    %animate{attributename: "opacity", begin: "0.5s", dur: "0.5s", from: "0", to: "1"}
+  
+  %svg{height: "500", width: "500"}
+    %polygon{points: "225 443   52 343   52 143   225 43   398 143   398 343", style: "stroke:purple;stroke-width:1"}
+    %animatetransform{attributename: "transform", begin: "1s", dur: "0.5s", from: "0.9 0.9", repeatcount: "0", to: "1 1", type: "scale"}
+    %animatetransform{ :attributename => "transform", :begin => "1s", :dur => "0.5s", :from => "20 20", :to => "0 0", :type => "translate"}
+    %animate{attributename: "opacity", begin: "0s", dur: "1", from: "0", to: "0"}
+    %animate{attributename: "opacity", begin: "1s", dur: "0.5s", from: "0", to: "1"}
+ 
+
+      
+      

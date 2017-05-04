@@ -7,8 +7,11 @@ sprockets.append_path File.join "#{root}", "vendor/bower_components"
 ignore "partials/*"
 ignore "snippets/*"
 
+page "/custom_pages/*", :layout => "landing"
+
 configure :development do
   activate :livereload, { :host => "127.0.0.1" }
+  activate :bootstrap_navbar
 end
 
 activate :blog do |blog|
@@ -24,4 +27,5 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash, :ignore => ["bower_components"]
+  activate :bootstrap_navbar
 end

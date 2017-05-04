@@ -8,3 +8,8 @@ gem "rake"
 gem "font-awesome-middleman"
 gem "bourbon"
 gem "compass-core"
+
+gem "middleman-deploy"
+gem 'middleman-bootstrap-navbar'
+gem "bootstrap-sass"
+gem "jquery-middleman"
