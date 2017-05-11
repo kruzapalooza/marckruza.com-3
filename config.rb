@@ -7,7 +7,7 @@ sprockets.append_path File.join "#{root}", "vendor/bower_components"
 ignore "partials/*"
 ignore "snippets/*"
 
-page "/custom_pages/*", :layout => "landing"
+page "/custom_pages/*", :layout => "custom"
 
 configure :development do
   activate :livereload, { :host => "127.0.0.1" }

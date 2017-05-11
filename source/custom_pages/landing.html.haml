@@ -2,26 +2,34 @@
 %link{ href: "/stylesheets/landing.scss", rel: "stylesheets", type: "text/css"}
 
 %div.first-container.outline.red
-  %svg.my-poly{ height: "800", width: "1000"}
-    %polygon{ points: "355 400   182 300   182 100   355 0   528 100   528 300", style: "stroke:purple;stroke-width:1" }
+  %svg.my-poly{ height: "800", width: "1000", xmlns: 'http://www.w3.org/2000/svg', 'xmlns:xlink' => 'http://www.w3.org/1999/xlink'}
+    %polygon{ points: "355 400   182 300   182 100   355 0   528 100   528 300", style: "stroke:purple; stroke-width:1" , fill: "gray"}
+      %a{"xlink:href" => "http://viget.com"}
     %animatetransform{  attributename: "transform", begin: "0s", dur: "0.5s", from: "0 -20",    to: "0 0", type: "translate"}
-    %animatetransform{  attributename: "transform", begin: "0s", dur: "0.5s", from: "0.0 0.7",  to: "1 1", type: "scale"}
+    %animatetransform{  attributename: "transform", begin: "0s", dur: "0.5s", from: "0.0 0.5",  to: "1 1", type: "scale"}
     %animate{           attributename: "opacity",   begin: "0s", dur: "0.5s", from: "0",        to: "1"}
   
-  %svg.my-poly{ height: "800", width: "1000", xmlns: "/books.html"}
-    %polygon{ points: "535 715   362 615   362 415   535 315   708 415   708 615", style: "stroke:green;stroke-width:1"}
+  %svg.my-poly{ height: "800", width: "1000", xmlns: "http://www.w3.org/2000/svg" , "xmlns:xlink" => "/index.html"}
+    %polygon{ points: "535 715   362 615   362 415   535 315   708 415   708 615", style: "stroke:green; stroke-width:1"}
+    %a{ "xlink:href" => "/index.html"}
+      %text{ x: '0', y: '50', 'font-family' => 'Orbitron', fill: "blue", href: "/index.html"} Text
     %animatetransform{  attributename: "transform", begin: "0.5s", dur: "0.5s", from: "-20 -20", to: "0 0", type: "translate"}
-    %animatetransform{  attributename: "transform", begin: "0.5s", dur: "0.5s", from: "0.0 0.5", to: "1 1", type: "scale"}
+    %animatetransform{  attributename: "transform", begin: "0.5s", dur: "0.5s", from: "0.5 0.0", to: "1 1", type: "scale"}
     %animate{           attributename: "opacity",   begin: "0s",   dur: "0.5",  from: "0",       to: "0"}
     %animate{           attributename: "opacity",   begin: "0.5s", dur: "0.5s", from: "0",       to: "1"}
   
   %svg.my-poly{ height: "800", width: "1000"}
-    %polygon{ points: "175 715   2 615   2 415   175 315   348 415   348 615", style: "stroke:yellow;stroke-width:1"}
-    %animatetransform{  attributename: "transform", begin: "1s", dur: "0.5s", from: "20 20",   to: "0 0", type: "translate"}
+    %polygon{ points: "175 715   2 615   2 415   175 315   348 415   348 615", style: "stroke:yellow; stroke-width:1"}
+    %a.my-link{ href: "http://marckruza.com"} 
+      TEst link
+    %animatetransform{  attributename: "transform", begin: "1s", dur: "0.5s", from: "-20 0",   to: "0 0", type: "translate"}
     %animatetransform{  attributename: "transform", begin: "1s", dur: "0.5s", from: "0.0 0.5", to: "1 1", type: "scale"}
     %animate{           attributename: "opacity",   begin: "0s", dur: "1",    from: "0",       to: "0"}
     %animate{           attributename: "opacity",   begin: "1s", dur: "0.5s", from: "0",       to: "1"}
-    
+
+
+  %svg{ xmlns: "http://www.w3.org/2000/svg", 'xmlns:xlink' => "http://www.w3.org/1999/xlink", version: "1.1"}
+    %a.my-link{ href: "http://marckruza.com"} Test link
 
       
       

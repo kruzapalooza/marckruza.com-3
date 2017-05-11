@@ -1,0 +1,56 @@
+@import "bourbon/app/assets/stylesheets/bourbon";
+@import "grid-settings";
+@import "neat/app/assets/stylesheets/neat";
+@import "sass-mediaqueries/media-queries";
+@import "colors";
+@import "normalize";
+@import "images";
+@import "layout";
+@import "container";
+@import "typography";
+@import "header";
+@import "blog-index";
+@import "blog-post";
+
+.content {
+  
+background-color: $black;
+
+  .first-container {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.5em;
+    font-size: 20pt;
+  }
+  .my-poly {
+    position: absolute;
+  }
+
+  a.svg {
+    position: relative;
+    display: inline-block; 
+  }
+  
+  a.svg:after {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+  }
+
+  .my-link{ 
+    color: white;}
+
+  /*debugging*/
+  .outline {
+    outline-style: dashed;
+    outline-width: 1px;
+  }
+  .red {
+    outline-color: red;
+  }
+  
+}
+
