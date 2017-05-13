@@ -13,8 +13,8 @@
 @import "blog-post";
 
 .content {
-
-background-color: blue;
+  
+background-color: green;
 
   .first-container {
     display: inline-block;
@@ -34,33 +34,6 @@ background-color: blue;
   .red {
     outline-color: red;
   }
-
-
-  .wrapper {
-  display: block;
-  position: relative;
-  padding: 5px;
-  margin: 5px;
-  /* debug only */ /*  
-  box-shadow: 2px 2px 2px 2px #a6a6a6; */
-
-  /* avoid the great collapse */
-  &:after { 
-     content: ""; 
-     display: block; 
-     height: 0; 
-     clear: both;
-  }
-
-  .red {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    /* outline: 1px dotted red; */
-  }
-
-  }
-
   
 }
 

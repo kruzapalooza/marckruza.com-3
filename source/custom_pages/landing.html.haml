@@ -1,27 +1,27 @@
 
 %link{ href: "/stylesheets/landing.scss", rel: "stylesheets", type: "text/css"}
+%link{ href: "/stylesheets/bootstrap.css", rel: "stylesheets", type: "text/css"}
 
-%div.first-container.outline.red
-  %svg.my-poly{ height: "800", width: "1000"}
-    %polygon{ points: "355 400   182 300   182 100   355 0   528 100   528 300", style: "stroke:purple;stroke-width:1" }
-    %animatetransform{  attributename: "transform", begin: "0s", dur: "0.5s", from: "0 -20",    to: "0 0", type: "translate"}
-    %animatetransform{  attributename: "transform", begin: "0s", dur: "0.5s", from: "0.0 0.7",  to: "1 1", type: "scale"}
-    %animate{           attributename: "opacity",   begin: "0s", dur: "0.5s", from: "0",        to: "1"}
-  
-  %svg.my-poly{ height: "800", width: "1000", xmlns: "/books.html"}
-    %polygon{ points: "535 715   362 615   362 415   535 315   708 415   708 615", style: "stroke:green;stroke-width:1"}
-    %animatetransform{  attributename: "transform", begin: "0.5s", dur: "0.5s", from: "-20 -20", to: "0 0", type: "translate"}
-    %animatetransform{  attributename: "transform", begin: "0.5s", dur: "0.5s", from: "0.0 0.5", to: "1 1", type: "scale"}
-    %animate{           attributename: "opacity",   begin: "0s",   dur: "0.5",  from: "0",       to: "0"}
-    %animate{           attributename: "opacity",   begin: "0.5s", dur: "0.5s", from: "0",       to: "1"}
-  
-  %svg.my-poly{ height: "800", width: "1000"}
-    %polygon{ points: "175 715   2 615   2 415   175 315   348 415   348 615", style: "stroke:yellow;stroke-width:1"}
-    %animatetransform{  attributename: "transform", begin: "1s", dur: "0.5s", from: "20 20",   to: "0 0", type: "translate"}
-    %animatetransform{  attributename: "transform", begin: "1s", dur: "0.5s", from: "0.0 0.5", to: "1 1", type: "scale"}
-    %animate{           attributename: "opacity",   begin: "0s", dur: "1",    from: "0",       to: "0"}
-    %animate{           attributename: "opacity",   begin: "1s", dur: "0.5s", from: "0",       to: "1"}
-    
+%div.wrapper
+  %div.red
+    %div.wrapper
+      %div.orange
+        %h1
+          Welcome to My Website
+        %img{:src => "/assets/images/me.jpg"}/
+        %p
+          Having graduated from Florida State with degrees in Computer
+          Science and Music Composition, my interests range from
+          writing novels to writing computer programs, and from
+          singing in church to playing in a local rock band. I love
+          beaches, mountains, surfing and hiking... and writing about
+          them. I'd love to find a way to put my talents to work for
+          you!
+        %a.button{:href => "http://www.amazon.com/-/e/B01A1GBA1K"}
+          %span
+            Visit my Amazon Author Page
+        %a.button{:href => "http://charlestonareajusticeministry.org/"}
+          %span
+            Web Portfolio: My redesign of the Charleston Area Justice Ministry webpage
 
-      
       

@@ -1,0 +1,12 @@
+!!!
+%html.no-js
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    = _partial "meta"
+    = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Orbitron|Audiowide|Boogaloo|Galindo"
+    = stylesheet_link_tag "custom"
+    = javascript_include_tag  "modernizr"
+  %body{:class => page_classes}
+    .content
+      = yield
+    = javascript_include_tag "custom"
