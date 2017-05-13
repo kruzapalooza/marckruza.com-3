@@ -4,7 +4,6 @@ body {
 
 #box-top {
   max-width: 100%;
-  min-height: 40em;
   max-height: auto;
   margin-left: 0.5em;
   padding: 1em;
@@ -93,6 +92,8 @@ body {
     font-weight: bold;
     -webkit-clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
   }
+
+  
 }
 
 .big-hex {
@@ -146,14 +147,17 @@ body {
 }
 
 .narrow-book {
+  display: inline-block;
   margin: 1em;
-  max-width: 100%;
+  max-width: 45%;
+  max-height: 30em;
 }
 
 /* smaller viewport, default setting */
 .tall-rectangle {
   position: relative;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#222222), to(rgba(0,0,0,0)));
+  min-width: 340px;
   max-width: 100%;
   min-height: 30em;
   padding: 1em;
@@ -218,7 +222,7 @@ body {
   #articles {
     background-color: #674F33;
     top: 2.5em;
-    left: 47%;
+    left: 50%;
     width: 50%;
     z-index: 150;
   }  
@@ -236,26 +240,29 @@ body {
 }
 
 .my-list {
-  color: #AAAAAA;
-  font: sans-serif;
-  font-size: 12pt;
-  padding: 1em;
-  text-align: justify;
+  padding: 0.5em;
+  font-family: Orbitron;
+  color: #888888;
+  font-size: 9pt;
+  line-height: 16pt;
+  @media (min-width: 992px) {
+    margin-right: 4em;
+  }  
 }
 
 .subtitle {
   color: #0084b4;
   font-size: 17pt;
   font-family: 'Audiowide', cursive;
-  text-align: center;
+  padding-bottom: 0.5em;
 }
 
 .menu-link {
   font-family: "Orbitron";
   font-size: 12pt;
   color: #0084b4;
-  -webkit-transition:color .2s ease-out, background .2s ease-in;
-    &:hover { color: purple;}
+/*  -webkit-transition:color .2s ease-out, background .2s ease-in;
+    &:hover { color: purple;}*/
 }
 
 .section-title {
@@ -266,22 +273,24 @@ body {
 }
 
 .buy-link {
-  font-size: 14pt;
+  font-size: 12pt;
   background-color: #000000;
   width: 100%;
   text-align: center;
   clip-path: polygon(5% 50%, 10% 5%, 90% 5%, 95% 50%, 90% 95%, 10% 95%);
   font-family: 'Audiowide', cursive;
-  margin: 0 auto;
   padding-left: 10%;
   padding-right: 10%;
   -webkit-transition:color .2s ease-out, background .2s ease-in;
     &:hover { color: yellow; }
 }
 
+.pull-left {
+  float: left;
+}
+
 .pull-right {
   float: right;
-  
 }
 
 .navlinks {
