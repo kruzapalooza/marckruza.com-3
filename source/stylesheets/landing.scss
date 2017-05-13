@@ -17,7 +17,8 @@ body {
   background-color: #674F23;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#222222), to(rgba(0,0,0,0)));
   border-radius: 1em;
-  width: 90%;
+  width: 95%;
+  min-width: 360px;
   height: 30em;
   position: absolute;
   top: 0em;
@@ -30,15 +31,15 @@ body {
   font-size: 28pt;
   color: yellow;
   margin-left: 0.5em;
+  margin-top: 0.25em;
+  max-width: 100%;
 }
 
 #social-media-bar {
   position: absolute;
   top: 6em;
-  left: 0;
-  width: 2.5em;
-  padding: 1em;
-  height: auto;
+  left: -2em;
+  width: 2em;
   list-style-type: none;
   z-index: 110;
 }
@@ -46,25 +47,25 @@ body {
 .social-media-widget {
   position: relative;
   width: 100%;
-  margin-top: 0.5em;
-  height: auto;
   clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
 }
 
 #headshot-and-highlights {
+  @media (min-width: 0px) and (max-width: 619px) { height: 52em; } 
+  @media (min-width: 620px) and (max-width: 991px) { height: 35em; } 
+  @media (min-width: 992px) { height: 28em; }
+
   background-color: #674F23; 
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.9)), to(rgba(0,0,0,0.0))); 
   border-radius: 1em;
-  max-width: 90%;
-  min-height: 30em;
+  max-width: 95%;
+  min-width: 340px;
   position: relative;
   top: 5em;
-  left: 7em;
+  left: 2em;
   z-index: 150;
-
   animation-delay: 2s;
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
- 
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */ 
 }
 
 @-webkit-keyframes fadein {
@@ -86,30 +87,62 @@ body {
 .big-hex-holder {
   display: inline-block;
   position: relative;
-  max-width: 50%;
-  max-height: 50%;
+
+  section {
+    display: inline-block;
+    font-weight: bold;
+    -webkit-clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+  }
 }
 
 .big-hex {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  width: 20em;
-  height: 20em;
+  width: 18em;
+  height: 18em;
   background-color: gray;
-  clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+  -webkit-clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
 }
 
 .one {
-  left: 0;
+  left: 0.5em;
   top: 0;
 }
+
 .two {
-  left: 1em;
-  top:  1em;
+  @media (max-width: 619px) { 
+    left: 0em;
+    top:  32em;
+  }
+  @media (min-width: 620px) { 
+    left: 13.75em;
+    top:  8em;
+  }
+  text-align: center;
+  section {
+  background-color: #674F23; 
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,0.9)), to(rgba(0,0,0,0.0)));
+    p {
+      font-family: Orbitron;
+      color: #0084b4;
+      font-size: 9pt;
+      line-height: 6pt;
+    }
+  }
 }
+
+/* smaller viewport, default setting */
 .three {
-  left: 2em;
-  top:  0;
+  left: 0;
+  top:  16em;
+}
+
+/* larger viewports */
+@media (min-width: 992px) {
+  .three {
+    left: 27em;
+    top:  0;
+  }
 }
 
 .narrow-book {
@@ -117,7 +150,7 @@ body {
   max-width: 100%;
 }
 
-/* smaller viewport */
+/* smaller viewport, default setting */
 .tall-rectangle {
   position: relative;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#222222), to(rgba(0,0,0,0)));
@@ -153,6 +186,20 @@ body {
   padding: 2em;
   margin: 0.5em;
   border-radius: 0.5em;
+}
+
+#novels {
+  background-color: #674F23;
+  top: 0em;
+  left: -2em;
+  width: 100%;
+}
+
+#articles {
+  background-color: #674F23;
+  top: 0em;
+  left: -2em;
+  width: 100%;
 }
 
 /* larger viewports */
@@ -230,6 +277,21 @@ body {
   padding-right: 10%;
   -webkit-transition:color .2s ease-out, background .2s ease-in;
     &:hover { color: yellow; }
+}
+
+.pull-right {
+  float: right;
+  
+}
+
+.navlinks {
+  display: inline-block;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
 
 
