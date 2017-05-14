@@ -9,6 +9,7 @@ ignore "snippets/*"
 
 page "/custom_pages/landing.*", :layout => "landing"
 page "/custom_pages/polygons.*", :layout => "polygons"
+set :index_file, "/custom_pages/landing.html"
 
 configure :development do
   activate :livereload, { :host => "127.0.0.1" }
