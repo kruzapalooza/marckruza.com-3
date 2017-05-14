@@ -6,4 +6,6 @@ Having graduated from Florida State with degrees in Computer Science and Music C
 
 ![Me](me.jpg "Marc S. Kruza") 
 
+[Landing Page](/custom_pages/landing.html){: .buy-link }
+
 
