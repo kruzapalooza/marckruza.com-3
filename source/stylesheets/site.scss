@@ -81,14 +81,13 @@
     text-decoration: none;
     padding: 0.5em;
     border-radius: 0.2em;
-    font-size: 14pt;
+    font-size: 12pt;
     background-color: $blue;
     color: $light-gray;
     max-width: 40%;
     text-align: center;
     font-family: Geneva;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0.5em 5% 0.5em 5%;
     -webkit-transition:color .2s ease-out, background .2s ease-in;
       &:hover { color: yellow; }
     }

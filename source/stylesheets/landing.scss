@@ -92,8 +92,15 @@ body {
     font-weight: bold;
     clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
     -moz-clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
-    -webkit-clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
   }
+
+  img {
+    display: inline-block;
+    font-weight: bold;
+    clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+    -moz-clip-path: polygon(0% 50%, 25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%);
+  }
+
 
   transition: all 0.125s linear;
   &:after{
